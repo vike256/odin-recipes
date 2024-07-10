@@ -1,1 +1,1 @@
-First project of The Odin Project
+First project of The Odin Project!
