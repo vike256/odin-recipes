@@ -6,6 +6,29 @@ h1 {
     color: blue;
 }
 
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: orange;
+    font-weight: 1000;
+    text-shadow: 1px 1px 2px black;
+}
+
+p,
+li {
+    font-style: italic;
+}
+
+p {
+    font-weight: bold;
+    color: #10BB10;
+}
+
 li {
     background-color: hotpink;
+    color: rgb(80, 60, 40);
+    width: 128px;
+}
+
+img {
+    box-shadow: 0px 0px 8px black;
 }
