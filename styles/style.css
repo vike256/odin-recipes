@@ -2,8 +2,16 @@
     font-family: 'Times New Roman', serif;
 }
 
+body {
+    text-align: center;
+}
+
 h1 {
-    color: blue;
+    color: yellow;
+    background-color: purple;
+    padding: 20px;
+    margin: auto;
+    width: 380px;
 }
 
 h2 {
@@ -23,12 +31,33 @@ p {
     color: #10BB10;
 }
 
+ul,
 li {
-    background-color: hotpink;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    background-color: royalblue;
     color: rgb(80, 60, 40);
-    width: 128px;
+    font-weight: bold;
+    padding: 16px;
+    margin: 8px 4px;
+    width: 80px;
+    border: 4px solid gold;
 }
 
 img {
     box-shadow: 0px 0px 8px black;
+}
+
+a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.shine {
+    text-shadow: 0px 0px 6px gold;
 }
